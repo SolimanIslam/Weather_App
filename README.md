@@ -1,16 +1,23 @@
-# clima
+Weather App
+This Flutter application allows you to get the weather for a specific city by entering its name. It uses a REST API for networking and requests your location permission to provide weather information for your current location.
 
-A new Flutter project.
+Features:
 
-## Getting Started
+Enter a city name to get its weather information.
+Get weather information for your current location.
+Display current temperature, weather description, and other relevant data.
+Uses a loading spinner while fetching weather data.
 
-This project is a starting point for a Flutter application.
+Dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+geolocator: ^9.0.2
+http: ^0.13.6
+flutter_spinkit: ^5.2.0
+Getting started:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application will request permission to access your location. This is used to provide weather information for your current location. You can grant or deny this permission.
+
+API:
+
+The application uses a REST API for weather data. You will need to configure the API key in the code.
